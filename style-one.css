@@ -1,0 +1,753 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ================================Top-Header======================================  */
+
+
+/* menu */
+
+/* menu-end */
+
+.parent-top{
+  display: flex;
+width: 100%;
+justify-content: space-around;
+padding-top: 20px;
+padding-left: 95px;
+padding-right: 35px;
+
+}
+.setap-div{
+  display: flex;
+   flex-basis: 70%;
+  
+}
+.setap-div-two{
+  display: flex;
+margin-left: 50px;
+  flex-basis: 30%;
+  cursor: pointer;
+}
+
+.setap-one h2{
+  color: #101820;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+.setap-one p{
+  color: #101820;
+font-family: Montserrat;
+font-size: 9px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+.setap-two{
+  color: #101820;
+font-family: Montserrat;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+/*  ================================Middle-Header====================================== */
+
+
+.parent-two{
+  width: 100%;
+  background: #101820;
+  padding-top: 62px;
+ 
+}
+.child-two{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#fnamekuku{
+  width: 840px;
+  height: 43px;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-style: italic; 
+  font-weight: 400;
+  line-height: normal;
+}
+#fnamekuku::placeholder{
+  color: #101820;
+  padding-left: 20px;
+}
+.marvi h2{
+  word-spacing: 10px;
+}
+
+/*  ================================Last-Header====================================== */
+
+:before,:after{
+	box-sizing: border-box;
+}
+.container{
+	max-width: 100%;
+	margin:auto;
+
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.v-center{
+	align-items: center;
+}
+ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+/* header */
+.header{
+	display: block;
+	width: 100%;
+	position: relative;
+	z-index: 99;
+	padding:46px 0px 21px 0px;
+  background-color: black;
+}
+
+.header .item-center{
+	flex:100%;
+  
+ 
+}
+
+
+.header .menu > ul > li{
+	display: inline-block;
+	line-height: 30px;
+	margin-left: 31px;
+  margin-right: 38px;
+  transition: 0.3s;
+  background: black;
+}
+.header .menu > ul > li > a{
+	position: relative;
+	text-transform: capitalize;
+	transition: color 0.3s ease;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background: black;
+  
+}
+.header .menu > ul > li .sub-menu{
+	position: absolute;
+	z-index: 500;
+	background-color:#ffffff;
+	box-shadow: -2px 2px 70px -25px rgba(0,0,0,0.3); 
+	padding: 20px 30px;
+	transition: all 0.5s ease;
+	margin-top:25px;
+	opacity:0;
+	visibility: hidden;
+}
+
+.list-item h4{
+  text-align: center;
+  color: #101820;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.list-item h3{
+  text-align: center;
+  color: #101820;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.list-item h5{
+  text-align: center;
+  color: #101820;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.list-item p{
+  text-align: center;
+  color: #101820;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.list-item h2{
+  text-align: center;
+  margin-bottom: 54px;
+}
+.list-item h2 a{
+  color: #101820;
+text-align: center;
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: 1px solid black;
+padding: 5px 5px;
+transition: 0.3s;
+}
+.list-item h2 a:hover{
+background: #101020;
+color: #FFF;
+}
+
+
+
+/* ==============================Section-One==================================== */
+/*  ========================================================================== */
+
+.parent-onee{
+  width: 100%;
+ position: relative;
+}
+.parent-onee img{
+  width: 100%;
+ height: 100%;
+}
+.img-kojy{
+  display: block;
+}
+.img-kis{
+  display: none;
+}
+.todos{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+.todos h2{
+  width: 100%;
+  color: #FFF;
+  text-align: start;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+}
+.todos h5{
+  color: #FFF;
+  text-align: start;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ==============================Section-Two==================================== */
+/*  ========================================================================== */
+.parent-threee{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+}
+.img-oke h3{
+ 
+  color: #101820;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+margin-top: 12.71px;
+}
+
+/* ==============================Section-Three==================================== */
+/*  ========================================================================== */
+.parent-five{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 149px;
+  text-align: center;
+}
+.hide-ku{
+  display: block;
+}
+.nuestaro p{
+  color: #101820;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nuestaro h3{
+  color: #101820;
+text-align: center;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 13px;
+}
+.nuestaro h4{
+  margin-top: 23px;
+}
+.nuestaro a{
+  text-decoration: none;
+  color: #101820;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 13px 20px 10px 20px;
+border: 2px solid #101820;
+transition: 0.3s;
+}
+.nuestaro a:hover{
+  color: #fff;
+  background: #95A5A6;
+  border: 2px solid #00eeff;
+}
+
+
+/* ==============================Section-Four==================================== */
+/*  ========================================================================== */
+.parent-six{
+  width: 100%;
+  margin-top: 96px;
+}
+
+.swiper-pera {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+
+}
+
+.slidea-jamela {
+  text-align: center;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.img-sideup{
+  position: relative;
+}
+.img-sideup-two{
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+.img-sideup p{
+  color: #101820;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 29px;
+}
+.img-sideup h2{
+  color: #101820;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.img-sideup h4{
+  color: #101820;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.img-sideup h5{
+  color: #101820;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.img-sideup h6{
+  color: #101820;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.img-sideup h6 a{
+  text-decoration: none;
+  color: #101820;
+font-family: Montserrat;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 2px 4px;
+border: 2px solid #101820;
+box-shadow: 1px 1px 1px black;
+
+}
+.img-sideup h6 span a{
+  text-decoration: none;
+  color: #D0D0D2;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2px 4px;
+  border: 2px solid #D0D0D2;
+  margin-left: 5px;
+}
+.img-sideup h3{
+  color: #101820;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+.onekcolor{
+  margin-top: 10px;
+  
+}
+.img-sideup  h3 a{
+  text-decoration: none;
+  color: #101820;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 10px 25px 5px 25px;
+border: 1px solid black;
+background: #fff;
+transition: 0.3s;
+}
+
+.img-sideup  h3 a:hover{
+  color: #101820;
+background: #BDC3C7;
+border: 1px solid #85929E;
+}
+/* ==============================Section-Nine==================================== */
+/*  ========================================================================== */
+.texto{
+  width: 95%;
+  margin: auto;
+}
+.horero{
+  margin-top: 157px;
+  margin-bottom: 100px;
+}
+.texto p{
+  color: #292929;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; 
+}
+/* ==============================Section-Fourteen==================================== */
+/*  ========================================================================== */
+
+.parent-fourteen{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 127px;
+  text-align: center;
+}
+.entregatoto h2{
+  color: #101820;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 32.38px;
+}
+.entregatoto p{
+  width: 195px;
+  color: #101820;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+/* ==============================Section-Fifteen==================================== */
+/*  ========================================================================== */
+
+.parent-fifteen{
+  width: 100%;
+  background-color: #EDECED;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 78px;
+}
+.mniejamlea{
+  margin-top: 59.41px;
+}
+.marvim{
+  width: 700px;
+}
+.marvim h2{
+  width: 398px;
+  margin: auto;
+  color: #101820;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; 
+  margin-top: 42.32px;
+}
+
+.marvim h3{
+margin-top: 36px;
+}
+.marvim h3 a {
+  text-decoration: none;
+  color: #101820;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10px 25px;
+  border: 2px solid black;
+  background: #EDECED;
+  transition: 0.3s;
+}
+.marvim h3 a:hover {
+  color: #101820;
+  background: #BDC3C7;
+  border: 2px solid #85929E;
+}
+
+.img-nii img{
+  width: 735px;
+  height: 445px;
+  margin-top: 20px;
+  margin-bottom: 14px;
+
+
+}
+
+
+
+/* ==============================Footer-section==================================== */
+  /*  ========================================================================== */
+
+.parent-footer{
+  width: 100%;
+  background-color: #101820;
+  padding-top: 54px;
+}
+.footer-four{
+  display: flex;
+  justify-content: space-around;
+}
+.formeaa{
+  display: flex;
+  margin-top: 33px;
+}
+.for-me ::placeholder{
+  color: #C4C4C4;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 21px;
+}
+.for-me #fnameola{
+  width: 308px;
+  height: 47px;
+  
+}
+.las h3{
+  width: 428px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.48px;
+}
+.subsc h4{
+  margin-top: 15px;
+  margin-left: 12px;
+ 
+}
+.subsc h4 a{
+  text-decoration: none;
+  padding: 13px 25px ;
+  border: 2px solid white;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: 0.3s;
+
+}
+.subsc h4 a:hover{
+background: white;
+color: #101020;
+border: 2px solid greenyellow;
+}
+.atenion h3{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.atenion p{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+}
+.cilent p{
+width: 215px;
+margin-top: 10px;
+
+}
+.legal p{
+  width: 162px;
+  margin-top: 10px;
+ 
+}
+.sobre p{
+  width: 131px;
+  margin-top: 10px;
+}
+.group-img{
+  margin-top: 22px;
+  cursor: pointer;
+}
+.foku{
+  margin-top: 15px;
+}
+.acepto{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.img-bag img{
+  width: 230px;
+  height: 358px;
+  
+}
+.m-diea{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  
+}
+.img-setkorsi{
+  display: flex;
+  align-items: center;
+  margin-bottom: 65px;
+  
+}
+.marvico h3 span{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 20px;
+}
+.img-visha img{
+  width: 144px;
+  height: 37px;
+  cursor: pointer;
+}
+.img-asm img{
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+.img-gls img{
+  width: 81px;
+  height: 23px;
+  cursor: pointer;
+}
+.dag-di{
+  margin-bottom: 130px;
+}
+.plane{
+  margin-bottom:250px;
+
+
+}
+/*  */
+
